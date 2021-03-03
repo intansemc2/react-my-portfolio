@@ -1,0 +1,28 @@
+.Footer {
+    padding: 0 0 4rem 0;
+}
+
+.Footer a {
+    display: inline-block;
+
+    width: 50px;
+    height: 50px;
+
+    border-radius: 50%;
+
+    background: #f8f9fa;
+    color: #0d1e2d;
+    text-align: center;
+
+    position: relative;
+}
+
+.Footer a > span {
+    display: inline-block;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
