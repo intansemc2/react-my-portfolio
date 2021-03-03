@@ -4,6 +4,10 @@
 
 Có sử sụng các thư viện của ReactJS, ReactRouter, Boostrap 4, IconFont, Line Awesome
 
+- Sử dụng [AOS](https://github.com/michalsnik/aos) để animation khi scroll 
+
+- Sử dụng [Isotope](https://github.com/metafizzy/isotope) để tạo lưới có thể lọc, sắp xếp 
+
 ### Mẫu giao diện trên trang Bootstrapmade
 
 Link đến mẫu giao diện [MyPortfolio](https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/) trên trang Bootstrapmade
