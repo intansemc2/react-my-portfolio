@@ -24,4 +24,4 @@ Gõ lệnh sau trong terminal
 
     npm start
 
-Mở trình duyệt với địa chỉ [localhost:3000](localhost:3000)
+Mở trình duyệt với địa chỉ [localhost:3000](http://localhost:3000)
