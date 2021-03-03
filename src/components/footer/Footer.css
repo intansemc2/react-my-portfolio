@@ -1,8 +1,10 @@
-.Footer {
-    padding: 0 0 4rem 0;
+.Footer .credits a,
+.Footer .social a {
+    background: var(--light);
+    color: var(--dark);
 }
 
-.Footer a {
+.Footer .social a {
     display: inline-block;
 
     width: 50px;
@@ -10,11 +12,13 @@
 
     border-radius: 50%;
 
-    background: #f8f9fa;
-    color: #0d1e2d;
     text-align: center;
 
     position: relative;
+
+    transition: all 0.5s;
+
+    margin: 0.2rem;
 }
 
 .Footer a > span {
@@ -25,4 +29,9 @@
     top: 50%;
 
     transform: translate(-50%, -50%);
+}
+
+.Footer .social a:hover {
+    background: var(--dark);
+    color: var(--light);
 }

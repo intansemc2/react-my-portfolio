@@ -11,7 +11,7 @@ function Footer() {
                         Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
                     </div>
                 </div>
-                <div className="col-sm-6 social text-md-right">
+                <div className="social col-sm-6 text-md-right">
                     <a href="#">
                         <span className="icofont-twitter"></span>
                     </a>
