@@ -1,11 +1,12 @@
 ### Đây là app MyPortfolio trên ReactJS
 
 Được tạo bởi Create-react-app
+
 Có sử sụng các thư viện của ReactJS, ReactRouter, Boostrap 4, IconFont, Line Awesome
 
 ### Mẫu giao diện trên trang Bootstrapmade
 
-Link đến mẫu giao diện https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/
+Link đến mẫu giao diện [MyPortfolio](https://bootstrapmade.com/myportfolio-bootstrap-portfolio-website-template/) trên trang Bootstrapmade
 
 ### Chạy app
 
@@ -15,12 +16,12 @@ Link đến mẫu giao diện https://bootstrapmade.com/myportfolio-bootstrap-po
 
 Gõ lệnh sau trong terminal
 
-> npm install
+    npm install
 
 3. Chạy project
 
 Gõ lệnh sau trong terminal
 
-> npm start
+    npm start
 
-Mở trình duyệt với địa chỉ localhost:3000
+Mở trình duyệt với địa chỉ [localhost:3000](localhost:3000)
