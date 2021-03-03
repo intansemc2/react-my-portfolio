@@ -9,15 +9,17 @@ Link đến mẫu giao diện https://bootstrapmade.com/myportfolio-bootstrap-po
 
 # Chạy app
 
-## Clone hoặc download project về
+1. Clone hoặc download project về
 
-## Cài đặt các thư viện cần thiết
-
-Gõ lệnh sau trong terminal
-npm install
-
-## Chạy project
+2. Cài đặt các thư viện cần thiết
 
 Gõ lệnh sau trong terminal
-npm start
-Mở trình duyệt với địa chỉ localhost:3000
+
+> npm install
+
+3. Chạy project
+
+Gõ lệnh sau trong terminal
+
+> npm start
+> Mở trình duyệt với địa chỉ localhost:3000
