@@ -6,28 +6,28 @@ import './Work.css';
 
 function Work() {
     useEffect(() => {
+        let grid = document.querySelector('#portfolio-grid');
+        let iso = new Isotope(grid, {
+            itemSelector: '.item',
+            isFitWidth: true,
+        });
+
+        document.querySelectorAll('#filters a').forEach((element) =>
+            element.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                var filterValue = element.attributes['data-filter'].textContent;
+                iso.arrange({
+                    filter: filterValue,
+                });
+
+                document.querySelector('#filters a.active').classList.remove('active');
+                element.classList.add('active');
+            })
+        );
+
         // SetTimeout để hoạt động chính xác, nếu không hàm .arrange sẽ không chạy
         setTimeout(() => {
-            let grid = document.querySelector('#portfolio-grid');
-            let iso = new Isotope(grid, {
-                itemSelector: '.item',
-                isFitWidth: true,
-            });
-
-            document.querySelectorAll('#filters a').forEach((element) =>
-                element.addEventListener('click', function(e) {
-                    e.preventDefault();
-
-                    var filterValue = element.attributes['data-filter'].textContent;
-                    iso.arrange({
-                        filter: filterValue,
-                    });
-
-                    document.querySelector('#filters a.active').classList.remove('active');
-                    element.classList.add('active');
-                })
-            );
-
             iso.arrange({
                 filter: '*',
             });
