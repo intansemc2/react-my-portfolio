@@ -32,6 +32,8 @@ function App() {
             <Spacing space="4" />
 
             <Footer />
+
+            <Spacing space="4" />
         </BrowserRouter>
     );
 }

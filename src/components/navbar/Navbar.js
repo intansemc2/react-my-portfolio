@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 import './Navbar.css';
 
+import Spacing from '../spacing/Spacing.js';
 import NavLink from './NavLink.js';
 
 function Navbar() {
@@ -41,6 +42,8 @@ function Navbar() {
                     </div>
                 </div>
             </section>
+
+            <Spacing space="4" />
 
             <nav className={`Navbar container navbar navbar-light custom-navbar`}>
                 <div className="row m-0">
