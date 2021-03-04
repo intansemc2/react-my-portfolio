@@ -31,8 +31,6 @@ function Home() {
             <Testimonial />
 
             <Spacing space="12" />
-
-            <div className="container">Other components ...</div>
         </section>
     );
 }
