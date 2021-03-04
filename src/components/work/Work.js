@@ -31,7 +31,7 @@ function Work() {
             iso.arrange({
                 filter: '*',
             });
-        }, 0);
+        }, 300);
     });
 
     return (
