@@ -6,6 +6,7 @@ import './App.css';
 import Navbar from '../../components/navbar/Navbar.js';
 import Home from '../home/Home.js';
 import About from '../about/About.js';
+import Service from '../service/Service.js';
 import Footer from '../../components/footer/Footer.js';
 
 import Spacing from '../../components/spacing/Spacing.js';
@@ -24,6 +25,10 @@ function App() {
 
                 <Route path="/about">
                     <About />
+                </Route>
+
+                <Route path="/service">
+                    <Service />
                 </Route>
 
                 <Route path="*">
