@@ -12,7 +12,7 @@ function Work() {
             isFitWidth: true,
         });
 
-        document.querySelectorAll('#filters a').forEach((element) =>
+        document.querySelectorAll('#filters a').forEach((element) => {
             element.addEventListener('click', function(e) {
                 e.preventDefault();
 
@@ -23,14 +23,28 @@ function Work() {
 
                 document.querySelector('#filters a.active').classList.remove('active');
                 element.classList.add('active');
-            })
-        );
+            });
+
+            iso.arrange({
+                filter: '*',
+            });
+        });
 
         // SetTimeout để hoạt động chính xác, nếu không hàm .arrange sẽ không chạy
         setTimeout(() => {
             iso.arrange({
                 filter: '*',
             });
+            setTimeout(() => {
+                iso.arrange({
+                    filter: '*',
+                });
+                setTimeout(() => {
+                    iso.arrange({
+                        filter: '*',
+                    });
+                }, 300);
+            }, 300);
         }, 300);
     });
 

@@ -5,6 +5,7 @@ import './App.css';
 
 import Navbar from '../../components/navbar/Navbar.js';
 import Home from '../home/Home.js';
+import About from '../about/About.js';
 import Footer from '../../components/footer/Footer.js';
 
 import Spacing from '../../components/spacing/Spacing.js';
@@ -19,6 +20,10 @@ function App() {
             <Switch>
                 <Route exact path="/">
                     <Home />
+                </Route>
+
+                <Route path="/about">
+                    <About />
                 </Route>
 
                 <Route path="*">
