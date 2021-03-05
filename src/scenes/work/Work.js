@@ -13,7 +13,7 @@ function Work() {
     AOS.init();
 
     return (
-        <div className="ServiceScene">
+        <div className="WorkScene">
             <Spacing space="4" />
 
             <WorkComp />
