@@ -7,6 +7,8 @@ import Navbar from '../../components/navbar/Navbar.js';
 import Home from '../home/Home.js';
 import About from '../about/About.js';
 import Service from '../service/Service.js';
+import Work from '../work/Work.js';
+import Contact from '../contact/Contact.js';
 import Footer from '../../components/footer/Footer.js';
 
 import Spacing from '../../components/spacing/Spacing.js';
@@ -29,6 +31,14 @@ function App() {
 
                 <Route path="/service">
                     <Service />
+                </Route>
+
+                <Route path="/work">
+                    <Work />
+                </Route>
+
+                <Route path="/contact">
+                    <Contact />
                 </Route>
 
                 <Route path="*">
