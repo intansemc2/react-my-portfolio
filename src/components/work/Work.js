@@ -79,58 +79,58 @@ function Work() {
 
             <div id="portfolio-grid" className="row no-gutter" data-aos="fade-up" data-aos-delay="200">
                 <div className="item web col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" className="item-wrap fancybox">
+                    <Link to="/work-single-page" className="item-wrap fancybox">
                         <div className="work-info">
                             <h3>Boxed Water</h3>
                             <span>Web</span>
                         </div>
                         <img className="img-fluid" src="/images/img_1.jpg" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" className="item-wrap fancybox">
+                    <Link to="/work-single-page" className="item-wrap fancybox">
                         <div className="work-info">
                             <h3>Build Indoo</h3>
                             <span>Photography</span>
                         </div>
                         <img className="img-fluid" src="/images/img_2.jpg" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" className="item-wrap fancybox">
+                    <Link to="/work-single-page" className="item-wrap fancybox">
                         <div className="work-info">
                             <h3>Cocooil</h3>
                             <span>Branding</span>
                         </div>
                         <img className="img-fluid" src="/images/img_3.jpg" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="item design col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" className="item-wrap fancybox">
+                    <Link to="/work-single-page" className="item-wrap fancybox">
                         <div className="work-info">
                             <h3>Nike Shoe</h3>
                             <span>Design</span>
                         </div>
                         <img className="img-fluid" src="/images/img_4.jpg" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" className="item-wrap fancybox">
+                    <Link to="/work-single-page" className="item-wrap fancybox">
                         <div className="work-info">
                             <h3>Kitchen Sink</h3>
                             <span>Photography</span>
                         </div>
                         <img className="img-fluid" src="/images/img_5.jpg" alt="" />
-                    </a>
+                    </Link>
                 </div>
                 <div className="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
-                    <a href="work-single.html" className="item-wrap fancybox">
+                    <Link to="/work-single-page" className="item-wrap fancybox">
                         <div className="work-info">
                             <h3>Amazon</h3>
                             <span>brandingn</span>
                         </div>
                         <img className="img-fluid" src="/images/img_6.jpg" alt="" />
-                    </a>
+                    </Link>
                 </div>
             </div>
         </section>

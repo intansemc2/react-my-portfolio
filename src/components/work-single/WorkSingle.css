@@ -1,0 +1,21 @@
+.WorkSingle .sticky-content {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+.WorkSingle .list-line li {
+margin-bottom: 10px;
+position: relative;
+padding-left: 30px;
+}
+
+.WorkSingle .list-line li:before {
+content: "";
+position: absolute;
+left: 0;
+top: .7rem;
+width: 10px;
+height: 2px;
+background: #000;
+}

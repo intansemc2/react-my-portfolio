@@ -9,6 +9,7 @@ import About from '../about/About.js';
 import Service from '../service/Service.js';
 import Work from '../work/Work.js';
 import Contact from '../contact/Contact.js';
+import WorkSinglePage from '../work-single-page/WorkSinglePage.js';
 import Footer from '../../components/footer/Footer.js';
 
 import Spacing from '../../components/spacing/Spacing.js';
@@ -39,6 +40,10 @@ function App() {
 
                 <Route path="/contact">
                     <Contact />
+                </Route>
+
+                <Route path="/work-single-page">
+                    <WorkSinglePage />
                 </Route>
 
                 <Route path="*">
