@@ -10,7 +10,7 @@ const STATES = {
 };
 
 let validateName = (value) => `${value}`.length >= 4;
-let validateEmail = (value) => `${value}`.length >= 5 && /^[^\s()<>@,;:\/]+@\w[\w\.-]+\.[a-z]{2,}$/i.test(`${value}`);
+let validateEmail = (value) => `${value}`.length >= 5 && /^[^\s()<>@,;:/]+@\w[\w.-]+\.[a-z]{2,}$/i.test(`${value}`);
 let validateSubject = (value) => `${value}`.length >= 8;
 let validateMessage = (value) => `${value}`.length > 0;
 
@@ -30,8 +30,6 @@ function Contact() {
         if (isFirstTime) {
             setIsFirstTime(false);
         }
-
-        let form = event.target;
 
         if (name.isValid && email.isValid && subject.isValid && message.isValid) {
             setState(STATES.LOADING);
@@ -62,13 +60,7 @@ function Contact() {
 
             <div className="row">
                 <div className="col-md-6 mb-5 mb-md-0" data-aos="fade-up">
-                    <form
-                        action="forms/contact.php"
-                        method="post"
-                        role="form"
-                        className="php-email-form"
-                        onSubmit={handleOnSubmit}
-                    >
+                    <form action="forms/contact.php" method="post" className="php-email-form" onSubmit={handleOnSubmit}>
                         <div className="row">
                             <div className="col-md-6 form-group">
                                 <label htmlFor="name">Name</label>
@@ -140,13 +132,13 @@ function Contact() {
                             </div>
 
                             <div className="col-md-12 mb-3">
-                                {state == STATES.LOADING && <div className="loading">Loading</div>}
-                                {state == STATES.ERROR && <div className="error-message">{returnMessage}</div>}
-                                {state == STATES.SENDED && <div className="sent-message">{returnMessage}</div>}
+                                {state === STATES.LOADING && <div className="loading">Loading</div>}
+                                {state === STATES.ERROR && <div className="error-message">{returnMessage}</div>}
+                                {state === STATES.SENDED && <div className="sent-message">{returnMessage}</div>}
                             </div>
 
                             <div className="col-md-6 form-group">
-                                {state != STATES.LOADING && (
+                                {state !== STATES.LOADING && (
                                     <input type="submit" className="readmore d-block w-100" value="Send Message" />
                                 )}
                             </div>

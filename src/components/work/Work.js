@@ -3,6 +3,7 @@ import React, { useEffect } from 'react';
 import Isotope from 'isotope-layout';
 
 import './Work.css';
+import { Link } from 'react-router-dom';
 
 function Work() {
     useEffect(() => {
@@ -57,21 +58,13 @@ function Work() {
                 </div>
                 <div className="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
                     <div id="filters" className="filters">
-                        <a href="#" data-filter="*" className="active">
+                        <Link data-filter="*" className="active">
                             All
-                        </a>
-                        <a href="#" data-filter=".web">
-                            Web
-                        </a>
-                        <a href="#" data-filter=".design">
-                            Design
-                        </a>
-                        <a href="#" data-filter=".branding">
-                            Branding
-                        </a>
-                        <a href="#" data-filter=".photography">
-                            Photography
-                        </a>
+                        </Link>
+                        <Link data-filter=".web">Web</Link>
+                        <Link data-filter=".design">Design</Link>
+                        <Link data-filter=".branding">Branding</Link>
+                        <Link data-filter=".photography">Photography</Link>
                     </div>
                 </div>
             </div>
@@ -83,7 +76,7 @@ function Work() {
                             <h3>Boxed Water</h3>
                             <span>Web</span>
                         </div>
-                        <img className="img-fluid" src="/images/img_1.jpg" />
+                        <img className="img-fluid" src="/images/img_1.jpg" alt="" />
                     </a>
                 </div>
                 <div className="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
@@ -92,7 +85,7 @@ function Work() {
                             <h3>Build Indoo</h3>
                             <span>Photography</span>
                         </div>
-                        <img className="img-fluid" src="/images/img_2.jpg" />
+                        <img className="img-fluid" src="/images/img_2.jpg" alt="" />
                     </a>
                 </div>
                 <div className="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
@@ -101,7 +94,7 @@ function Work() {
                             <h3>Cocooil</h3>
                             <span>Branding</span>
                         </div>
-                        <img className="img-fluid" src="/images/img_3.jpg" />
+                        <img className="img-fluid" src="/images/img_3.jpg" alt="" />
                     </a>
                 </div>
                 <div className="item design col-sm-6 col-md-4 col-lg-4 mb-4">
@@ -110,7 +103,7 @@ function Work() {
                             <h3>Nike Shoe</h3>
                             <span>Design</span>
                         </div>
-                        <img className="img-fluid" src="/images/img_4.jpg" />
+                        <img className="img-fluid" src="/images/img_4.jpg" alt="" />
                     </a>
                 </div>
                 <div className="item photography col-sm-6 col-md-4 col-lg-4 mb-4">
@@ -119,7 +112,7 @@ function Work() {
                             <h3>Kitchen Sink</h3>
                             <span>Photography</span>
                         </div>
-                        <img className="img-fluid" src="/images/img_5.jpg" />
+                        <img className="img-fluid" src="/images/img_5.jpg" alt="" />
                     </a>
                 </div>
                 <div className="item branding col-sm-6 col-md-4 col-lg-4 mb-4">
@@ -128,7 +121,7 @@ function Work() {
                             <h3>Amazon</h3>
                             <span>brandingn</span>
                         </div>
-                        <img className="img-fluid" src="/images/img_6.jpg" />
+                        <img className="img-fluid" src="/images/img_6.jpg" alt="" />
                     </a>
                 </div>
             </div>

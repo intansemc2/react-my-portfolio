@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Footer.css';
 
 function Footer() {
@@ -12,18 +13,18 @@ function Footer() {
                     </div>
                 </div>
                 <div className="social col-sm-6 text-md-right">
-                    <a href="#">
-                        <span className="icofont-twitter"></span>
-                    </a>
-                    <a href="#">
-                        <span className="icofont-facebook"></span>
-                    </a>
-                    <a href="#">
-                        <span className="icofont-dribbble"></span>
-                    </a>
-                    <a href="#">
-                        <span className="icofont-behance"></span>
-                    </a>
+                    <Link>
+                        <span className="icofont-twitter" />
+                    </Link>
+                    <Link>
+                        <span className="icofont-facebook" />
+                    </Link>
+                    <Link>
+                        <span className="icofont-dribbble" />
+                    </Link>
+                    <Link>
+                        <span className="icofont-behance" />
+                    </Link>
                 </div>
             </div>
         </footer>

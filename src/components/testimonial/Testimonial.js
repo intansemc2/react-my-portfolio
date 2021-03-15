@@ -27,7 +27,11 @@ function Testimonial() {
                         {/** testimonial */}
                         <li className="testimonial-wrap splide__slide">
                             <div className="testimonial">
-                                <img src="/images/person_1.jpg" alt="Image" className="img-fluid" />
+                                <img
+                                    src="/images/person_1.jpg"
+                                    alt="Ảnh đại diện khách hàng Jean Hicks"
+                                    className="img-fluid"
+                                />
                                 <blockquote>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus
@@ -41,7 +45,11 @@ function Testimonial() {
                         {/** testimonial */}
                         <li className="testimonial-wrap splide__slide">
                             <div className="testimonial">
-                                <img src="/images/person_2.jpg" alt="Image" className="img-fluid" />
+                                <img
+                                    src="/images/person_2.jpg"
+                                    alt="Ảnh đại diện khách hàng Chris Stanworth"
+                                    className="img-fluid"
+                                />
                                 <blockquote>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus

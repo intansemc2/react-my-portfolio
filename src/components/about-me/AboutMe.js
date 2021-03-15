@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 import './AboutMe.css';
 
@@ -55,7 +56,7 @@ function AboutMe() {
 
                 <div className="col-md-7 mb-5 mb-md-0" data-aos="fade-up">
                     <p>
-                        <img src="/images/person_1_sq.jpg" alt="Image" className="img-fluid" />
+                        <img src="/images/person_1_sq.jpg" alt="Ảnh đại diện người viết CV" className="img-fluid" />
                     </p>
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor dignissimos delectus minima
@@ -74,9 +75,9 @@ function AboutMe() {
                         maiores ea nisi voluptatibus. Minus?
                     </p>
                     <p>
-                        <a href="#" className="readmore">
+                        <Link href="#" className="readmore">
                             Download my CV
-                        </a>
+                        </Link>
                     </p>
                 </div>
             </div>
