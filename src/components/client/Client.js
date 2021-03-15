@@ -15,32 +15,32 @@ function Client() {
 
             <div className="row">
                 <div className="col-4 col-sm-4 col-md-2">
-                    <Link className="client-logo">
+                    <Link to="#" className="client-logo">
                         <img src="/images/logo-adobe.png" alt="" className="img-fluid" />
                     </Link>
                 </div>
                 <div className="col-4 col-sm-4 col-md-2">
-                    <Link className="client-logo">
+                    <Link to="#" className="client-logo">
                         <img src="/images/logo-uber.png" alt="" className="img-fluid" />
                     </Link>
                 </div>
                 <div className="col-4 col-sm-4 col-md-2">
-                    <Link className="client-logo">
+                    <Link to="#" className="client-logo">
                         <img src="/images/logo-apple.png" alt="" className="img-fluid" />
                     </Link>
                 </div>
                 <div className="col-4 col-sm-4 col-md-2">
-                    <Link className="client-logo">
+                    <Link to="#" className="client-logo">
                         <img src="/images/logo-netflix.png" alt="" className="img-fluid" />
                     </Link>
                 </div>
                 <div className="col-4 col-sm-4 col-md-2">
-                    <Link className="client-logo">
+                    <Link to="#" className="client-logo">
                         <img src="/images/logo-nike.png" alt="" className="img-fluid" />
                     </Link>
                 </div>
                 <div className="col-4 col-sm-4 col-md-2">
-                    <Link className="client-logo">
+                    <Link to="#" className="client-logo">
                         <img src="/images/logo-google.png" alt="" className="img-fluid" />
                     </Link>
                 </div>

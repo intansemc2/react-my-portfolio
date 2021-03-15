@@ -27,7 +27,7 @@ function Navbar() {
                                 <span className="icofont-twitter text-white mt-2 mr-3" />
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus
-                                    incidunt ut officiis explicabo inventore. <br /> <Link>t.co/v82jsk</Link>
+                                    incidunt ut officiis explicabo inventore. <br /> <Link to="#">t.co/v82jsk</Link>
                                 </p>
                             </div>
                         </div>
@@ -36,7 +36,7 @@ function Navbar() {
                             <h3>Hire Me</h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam necessitatibus
-                                incidunt ut officiisexplicabo inventore. <br /> <Link>myemail@gmail.com</Link>
+                                incidunt ut officiisexplicabo inventore. <br /> <Link to="#">myemail@gmail.com</Link>
                             </p>
                         </div>
                     </div>

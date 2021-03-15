@@ -58,13 +58,21 @@ function Work() {
                 </div>
                 <div className="col-md-12 col-lg-6 text-left text-lg-right" data-aos="fade-up" data-aos-delay="100">
                     <div id="filters" className="filters">
-                        <Link data-filter="*" className="active">
+                        <Link to="#" data-filter="*" className="active">
                             All
                         </Link>
-                        <Link data-filter=".web">Web</Link>
-                        <Link data-filter=".design">Design</Link>
-                        <Link data-filter=".branding">Branding</Link>
-                        <Link data-filter=".photography">Photography</Link>
+                        <Link to="#" data-filter=".web">
+                            Web
+                        </Link>
+                        <Link to="#" data-filter=".design">
+                            Design
+                        </Link>
+                        <Link to="#" data-filter=".branding">
+                            Branding
+                        </Link>
+                        <Link to="#" data-filter=".photography">
+                            Photography
+                        </Link>
                     </div>
                 </div>
             </div>

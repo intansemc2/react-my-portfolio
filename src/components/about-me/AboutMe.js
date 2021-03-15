@@ -75,7 +75,7 @@ function AboutMe() {
                         maiores ea nisi voluptatibus. Minus?
                     </p>
                     <p>
-                        <Link href="#" className="readmore">
+                        <Link to="#" className="readmore">
                             Download my CV
                         </Link>
                     </p>

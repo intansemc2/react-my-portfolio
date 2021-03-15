@@ -13,16 +13,16 @@ function Footer() {
                     </div>
                 </div>
                 <div className="social col-sm-6 text-md-right">
-                    <Link>
+                    <Link to="#">
                         <span className="icofont-twitter" />
                     </Link>
-                    <Link>
+                    <Link to="#">
                         <span className="icofont-facebook" />
                     </Link>
-                    <Link>
+                    <Link to="#">
                         <span className="icofont-dribbble" />
                     </Link>
-                    <Link>
+                    <Link to="#">
                         <span className="icofont-behance" />
                     </Link>
                 </div>
